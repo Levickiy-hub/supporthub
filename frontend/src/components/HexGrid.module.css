@@ -1,0 +1,7 @@
+.wrapper{
+    position: absolute;
+    top: -25px;
+    left: -150px;
+    z-index: -1;
+    width: -webkit-fill-available;
+}

@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 8px;
+    background-color: #1976d2;
+    color: white;
+    font-family: Arial, sans-serif;
+    user-select: none;
+    height: 100vh;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+    gap: 12px;
+}
+
+.open {
+    width: 260px;
+}
+
+.close {
+    width: 52px;
+}
+
+.toggleButton {
+    align-self: flex-end;
+    cursor: pointer;
+    padding: 4px 8px;
+    background-color: #115293;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.toggleButton:hover {
+    background-color: #0d3c7c;
+}
